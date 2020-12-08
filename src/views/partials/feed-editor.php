@@ -13,7 +13,7 @@
             <div class="feed-new-send">
                 <img src="<?= $base; ?>/assets/images/send.png" title="Enviar Msg" />
             </div>
-            <form class="feed-new-form" method="POST" action="<?= $base; ?>/post/new">
+            <form class="feed-new-form" method="POST" action="<?=$base;?>/post/new">
                 <input type="hidden" name="body" />
             </form>
         </div>
